@@ -34,7 +34,7 @@ Please add changes there.
 
 
 # Reading List
-![](https://raw.githubusercontent.com/bamos/reading-list/gh-pages/img/reading-list.gif)
+![](https://raw.githubusercontent.com/samtron1412/reading-list/gh-pages/img/reading-list.gif)
 
 This repository contains my open source reading list.
 I keep track of books by editing the files here and
