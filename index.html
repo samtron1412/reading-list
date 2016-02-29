@@ -29,7 +29,7 @@
                   data-toggle="collapse" data-target=".navbar-main-collapse">
             <i class="fa fa-bars"></i>
           </button>
-          <a class="navbar-brand page-scroll" href="https://samtron1412.github.io/reading-list">
+          <a class="navbar-brand page-scroll" href="#page-top">
             <i class="fa fa-book"></i>  <span class="light">Reading</span> List
           </a>
         </div>
@@ -40,6 +40,8 @@
                  when scrolled up past about section -->
             <li class="hidden"><a href="#page-top"></a></li>
             <!-- <li><a class="page-scroll" href="#about">About</a></li> -->
+            <li><a class="page-scroll" href="#crHead">Currently Reading</a></li>
+            <li><a class="page-scroll" href="#unHead">Up Next</a></li>
             <li><a class="page-scroll" href="#rHead">To Read</a></li>
             <li><a class="page-scroll" href="#fHead">Finished</a></li>
             <li><a class="page-scroll" href="#cHead">Compilations</a></li>
@@ -54,7 +56,7 @@
       <div class="intro-body">
         <div class="container">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-10 col-md-offset-1">
               <h1>Reading List</h1>
               <br>
               <p>
@@ -76,21 +78,53 @@
       </div>
     </header>
 
+      <!-- Currently Reading -->
+    <section id="crHead" class="container content-section">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h2>Currently Reading
+                <span class="count">
+                    (<span id="currently-reading-count"></span>)
+                </span>
+            </h2>
+          <!-- <a target="_blank" href= -->
+          <!-- "https://github.com/samtron1412/reading-list/blob/gh-pages/data/currently-reading.yaml"> -->
+          <!-- Suggest</a> -->
+          <div id="currently-reading"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Up Next -->
+    <section id="unHead" class="container content-section">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h2>Up Next
+                <span class="count">
+                    (<span id="up-next-count"></span>)
+                </span>
+            </h2>
+          <!-- <a target="_blank" href= -->
+          <!-- "https://github.com/samtron1412/reading-list/blob/gh-pages/data/up-next.yaml"> -->
+          <!-- Suggest</a> -->
+          <div id="up-next"></div>
+        </div>
+      </div>
+    </section>
+
     <!-- To Read -->
     <section id="rHead" class="container content-section">
-      <div class="finished-section">
-        <div class="container">
-          <div class="col-lg-8 col-lg-offset-2">
-              <h2>To Read
-                  <span class="count">
-                      (<span id="to-read-count"></span>)
-                  </span>
-              </h2>
-            <!-- <a target="_blank" href= -->
-            <!-- "https://github.com/samtron1412/reading-list/blob/gh-pages/data/to-read.yaml"> -->
-            <!-- Suggest</a> -->
-            <div id="to-read"></div>
-          </div>
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h2>To Read
+                <span class="count">
+                    (<span id="to-read-count"></span>)
+                </span>
+            </h2>
+          <!-- <a target="_blank" href= -->
+          <!-- "https://github.com/samtron1412/reading-list/blob/gh-pages/data/to-read.yaml"> -->
+          <!-- Suggest</a> -->
+          <div id="to-read"></div>
         </div>
       </div>
     </section>
@@ -98,7 +132,7 @@
     <!-- Finished -->
     <section id="fHead" class="container content-section">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+        <div class="col-lg-10 col-lg-offset-1">
             <h2>Finished
                 <span class="count">
                     (<span id="finished-count"></span>)
@@ -116,7 +150,7 @@
     <!-- Compilations -->
     <section id="cHead" class="container content-section">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+        <div class="col-lg-10 col-lg-offset-1">
           <h2>Compilations</h2>
           <!-- <a target="_blank" href= -->
           <!-- "https://github.com/samtron1412/reading-list/blob/gh-pages/data/compilations.yaml"> -->
