@@ -1,14 +1,6 @@
-- author: Arthur Conan Doyle
-  title: The Complete Sherlock Holmes
-  finished: False
-  rating: TODO
-  quotes:
-    - page: "23"
-      content: The sight of a friendly face in the great wilderness
-        of London is a pleasant thing indeed to a lonely man.
-    - page: "31"
-      content: No man burdens his mind with small matters unless
-        he has some very good reason for doing so.
+- author: Barbara Park
+  title: Junie B. Jones and some Sneaky Peeky Spying
+  finished: True
 - author: Sun Tzu
   title: The Art of War
   finished: 2015-12-29
